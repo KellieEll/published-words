@@ -1,0 +1,112 @@
+                                                                                .item {
+                                                                                display: none;
+                                                                            }
+
+                                                                            .filter.active {
+                                                                                background-color: silver;
+                                                                                border-radius: 70px;
+                                                                                color: black;
+                                                                                /*Makes button round or squre*/
+                                                                            }
+
+                                                                            #header {
+                                                                                font-size: 1.5em;
+                                                                                line-height: 1.6em;
+                                                                                text-align: center;
+                                                                                color: black;
+                                                                                margin-bottom: .1em;
+                                                                                padding: 10px;
+                                                                                position: absolute;
+                                                                                top: 110px;
+                                                                                margin-left: 48%;
+                                                                                margin-top: .8em;
+                                                                            }
+
+                                                                            a, a:visited {
+                                                                                color: gray;
+                                                                            }
+
+                                                                            .photo-container {
+                                                                                position: relative;
+                                                                                width: 100%;
+                                                                                margin: 0 auto;
+                                                                                padding-top: 3em;
+                                                                            }
+                                                                            /*#background {
+    background-color: white;
+}*/
+
+                                                                            #title {
+                                                                                /*background-image: url("writer2.jpg");*/
+                                                                                min-height: 100px;
+                                                                                width: 100%;
+                                                                                text-align: center;
+                                                                                margin-left: 10px;
+                                                                                margin-right: 10px;
+                                                                                font-size: 35px;
+                                                                                font-family: "Times New Roman";
+                                                                                color: black;
+                                                                                /*text-shadow: 2px 2px #000;*/
+                                                                            }
+
+                                                                            .filter {
+                                                                                width: 20%;
+                                                                                height: 80px;
+                                                                                /*Makes button size change*/
+                                                                                text-align: justify-all;
+                                                                                display: inline-block;
+                                                                                font-size: .8em;
+                                                                                line-height: .8em;
+                                                                                font-family: "Times New Roman";
+                                                                                color: white;
+                                                                                background-color: black;
+                                                                                font-style: bold;
+                                                                                margin: 10px;
+                                                                                border-radius: 5px;
+                                                                                /*This makes the circle round or square*/
+                                                                            }
+
+                                                                            .body {
+                                                                                /*width: 80%;*/
+                                                                                max-width: 600px;
+                                                                                text-align: justify-all;
+                                                                                font-size: 1.5em;
+                                                                                text-align: center;
+                                                                                padding: 50px;
+                                                                                margin: 0 auto;
+                                                                            }
+
+                                                                            .photo-container {
+                                                                                position: relative;
+                                                                                width: 100%;
+                                                                                margin: 0 auto;
+                                                                            }
+                                                                            /*#shopping {
+    width: 100%;
+    max-height: 50%;
+    display: inline-block;
+    margin: 0 auto;
+    /*padding-right: 25%;*/
+                                                                            /*padding-left: 25%;*/
+                                                                            /*#photo1 {
+    width: 40%;
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: 20px;
+    /*padding-right: 25%;*/
+                                                                            /*padding-left: 25%;*/
+
+                                                                            .item.active {
+                                                                                display: block;
+                                                                                color: black;
+                                                                                font-family: "Book Antiqua";
+                                                                                font-size: 1.5em;
+                                                                            }
+
+                                                                            @media only screen and (max-width: 500px) {
+                                                                                .photo-container {
+                                                                                    width: 50%;
+                                                                                    margin: 0 auto;
+                                                                                    padding-left: 50px;
+                                                                                    padding-right: 50px;
+                                                                                }
